@@ -1,0 +1,30 @@
+.navbarMain{
+    display: flex !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    padding: 30px 145px 0px 145px !important;
+    justify-content: space-between !important;
+}
+
+.button {
+   width: 137px !important;
+    height: 42px !important;
+    color: #fff !important;
+    border-radius: 12px !important;
+    background: linear-gradient(126.7deg,#0c0903 28.7%,#3d380b) !important;
+    padding: 12px 24px !important;
+    text-transform: capitalize !important;
+    
+}
+@media (max-width: 768px){
+    .button {
+        display: none !important;
+     }
+     .navbarMain{
+        
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+}
