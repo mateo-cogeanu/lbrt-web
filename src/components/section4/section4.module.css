@@ -1,0 +1,12 @@
+.sec4line{
+    margin: 8px auto !important;
+    width: 40px !important;
+    height: 1px !important;
+    border-radius: 2px !important;
+    background: radial-gradient(39.84% 47.5% at 96.82% 58.33%,#79d839 0,#ff6e2b 100%);
+}
+.line4Text{
+    color: #ffff !important;
+    justify-content: center !important;
+    display: flex !important;
+}
