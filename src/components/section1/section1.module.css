@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&display=swap');
+.secBg{
+    background-image: url("../../Assets/bg.PNG") !important;
+    background-size:100% 100% !important;
+    height:700px !important;
+    width: 100% !important;
+    background-repeat: no-repeat !important;
+   
+}
+.section1Title{
+    font-family: 'Space Grotesk', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 64px !important;
+    line-height: 60px !important;
+    color: #ffff !important;
+    margin-bottom: 16px !important;
+    margin-top: 26px !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+.defi{
+    font-family: 'Space Grotesk', sans-serif !important;
+    line-height: 60px !important;
+    margin-left: 01rem !important;
+    font-weight: 700 !important;
+    background-image: linear-gradient( #e7d852 38%,#665d11 62%) !important;
+    background-size: 100%;
+    background-repeat: repeat;
+    font-size: 64px !important;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.secText{
+    font-family: 'Space Grotesk', sans-serif !important;
+
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 22px !important;
+    line-height: 30px !important;
+    color: #fff0ad !important;
+    margin-bottom: 24px !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+.buttonStyle{
+    text-transform: capitalize !important;
+    width: 137px !important;
+    height: 42px !important;
+    border-radius: 12px !important;
+    color: #fff !important;
+    background: linear-gradient(245.22deg,#dbf566 35%,#948e35 65.17%, #e99b51 92.1%) !important;
+    background-position: 1% 50% !important;
+    background-size: 150% 150% !important;
+    transition: .5s !important;
+}
+.secButton{
+    
+    width: 137px !important;
+    height: 42px !important;
+    color: #fff !important;
+    border-radius: 12px !important;
+    background: linear-gradient(126.7deg,#0c0903 28.7%,#3d380b) !important;
+    padding: 12px 24px !important;
+    text-transform: capitalize !important;
+    opacity: .9;
+    border-radius: inherit;
+    margin-left: 2rem !important;
+}
+.secCard{
+    border-radius: 12px !important;
+
+    background: linear-gradient(126.7deg,#4eaaaa 40.7%,#547979) !important;
+    margin-right: 1.5rem !important;
+    padding: 1rem !important;
+    background: transparent !important;
+        backdrop-filter: blur(3px) !important;
+        border-radius: 15px !important;
+        border: 1px solid rgba(43, 43, 43, 0.568) !important;
+}
+.cardText{
+    display: flex !important;
+    justify-content: center !important;
+    font-family: 'Space Grotesk', sans-serif !important;
+    
+    font-size: 14px !important;
+    line-height: 18px !important;
+    color: #fff0ad !important;
+    margin-bottom: 4px !important;
+    opacity: 1 !important;
+    z-index: 100 !important;
+/* display: inline; */
+}
+.cardSubText{
+    font-family: 'Space Grotesk', sans-serif !important;
+
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 22px !important;
+    z-index: 1000 !important;
+    color: #fff !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+@media (max-width: 768px){
+    .section1Title{
+        font-size: 40px !important;
+    line-height: 35px !important;
+    }
+    .defi{
+        font-size: 40px !important;
+        line-height: 35px !important;
+    }
+    .secCard{
+        padding: 0.5rem !important;
+    }
+   
+}
+
+@media (max-width: 650px){
+    .cardText{
+        font-size: 10px !important;
+        line-height: 14px !important;
+    margin-bottom: 1px !important;
+
+    }
+    .cardSubText{
+        font-size: 16px !important;
+    }
+    .secCard{
+        padding: 0rem !important;
+    }
+}
+@media (max-width: 550px){
+    .section1Title{
+        font-size: 25px !important;
+    line-height: 25px !important;
+    }
+    .defi{
+        font-size: 25px !important;
+        line-height: 25px !important;
+    }
+    .secText{
+        font-size: 16px !important;
+    line-height: 25px !important;
+    }
+}
