@@ -1,0 +1,43 @@
+.Section3Bg{
+    background-image: url("../../Assets/section3bg.png") !important;
+    background-size:100% 100% !important;
+    background-repeat: no-repeat !important;
+    height:500px !important;
+    width: 100% !important;
+}
+.radline{
+    margin: 8px auto !important;
+    width: 40px !important;
+    height: 1px !important;
+    border-radius: 2px !important;
+    background: radial-gradient(39.84% 47.5% at 96.82% 58.33%,#79d839 0,#ff6e2b  100%);
+}
+.radlineText{
+    font-size: 20px !important;
+    line-height: 27px !important;
+    color: #ffff !important;
+    justify-content: center !important;
+    display: flex !important;
+}
+.action{
+    grid-template-columns: repeat(4,1fr) !important;
+    grid-gap: 22px !important;
+    gap: 22px !important;
+    padding: 24px 50px;
+}
+
+@media (max-width: 768px){
+
+.radlineText{
+    font-size: 14px !important;
+    line-height: 20px !important;
+    padding-left: 0.7rem !important;
+    
+}
+}
+@media (max-width: 900px){
+    .Section3Bg{
+       
+        height:100% !important;
+    }
+}
