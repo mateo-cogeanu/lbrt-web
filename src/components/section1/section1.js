@@ -107,7 +107,7 @@ const Section1 = () => {
                         variant="body2"
                         className={classes.cardSubText}
                       >
-                        $ 43,513,788,085
+                        $ 1,300
                       </Typography>
                     </CardContent>
                   </CardActionArea>
