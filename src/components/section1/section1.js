@@ -22,7 +22,7 @@ const Section1 = () => {
                 <Typography className={classes.defi}>DeFi</Typography>
               </Typography>
               <Typography className={classes.secText}>
-                Light-speed swaps. Next-level liquidity. Friction-less yield.
+                Lightning fast · Near-zero fees · Permissionless
               </Typography>
               <Grid
                 item
