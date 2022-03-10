@@ -73,7 +73,7 @@ const Footer = () => {
             >
               <Typography
                 onClick={() => {
-                  window.open("https://albertcoin.eu");
+                  window.open("https://coinmarketcap.com/currencies/solana/");
                 }}
               >
                 Coin Gecko
