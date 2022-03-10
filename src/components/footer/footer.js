@@ -43,10 +43,10 @@ const Footer = () => {
             >
               <Typography
                 onClick={() => {
-                  window.open("https://albertcoin.eu");
+                  window.open("https://solscan.io/token/FvkVzKWPWMJRuP3XjSk2aKSmf5z7W9gWAtB2HAXoZaRi");
                 }}
               >
-                Documentation
+                SOLSCAN
               </Typography>
             </Grid>
             <Grid
