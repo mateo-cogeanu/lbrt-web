@@ -88,10 +88,10 @@ const Footer = () => {
             >
               <Typography
                 onClick={() => {
-                  window.open("https://albertcoin.eu");
+                  window.open("https://phantom.app/");
                 }}
               >
-                Disclaimer
+                Phantom Wallet
               </Typography>
             </Grid>
           </Grid>
