@@ -58,7 +58,7 @@ const Footer = () => {
             >
               <Typography
                 onClick={() => {
-                  window.open("https://albertcoin.eu");
+                  window.open("https://coinmarketcap.com/currencies/solana/");
                 }}
               >
                 CoinMarketCap
@@ -73,7 +73,7 @@ const Footer = () => {
             >
               <Typography
                 onClick={() => {
-                  window.open("https://coinmarketcap.com/currencies/solana/");
+                  window.open("https://www.coingecko.com/en/coins/solana");
                 }}
               >
                 Coin Gecko
