@@ -91,7 +91,7 @@ const Footer = () => {
                   window.open("https://phantom.app/");
                 }}
               >
-                Phantom Wallet
+                AlbertCoin Wallet
               </Typography>
             </Grid>
           </Grid>
