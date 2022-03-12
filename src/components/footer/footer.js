@@ -40,6 +40,7 @@ const Footer = () => {
                 marginBottom: "0.5rem",
                 cursor: "pointer",
               }}
+// Change SolScan Link for AlbertCoin
             >
               <Typography
                 onClick={() => {
@@ -55,6 +56,7 @@ const Footer = () => {
                 marginBottom: "0.5rem",
                 cursor: "pointer",
               }}
+// Change CoinMarketCap Link for AlbertCoin
             >
               <Typography
                 onClick={() => {
