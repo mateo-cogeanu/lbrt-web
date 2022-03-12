@@ -14,13 +14,16 @@ const Section1 = () => {
           <Grid container sx={{ justifyContent: "center", marginTop: "5rem" }}>
             <Grid sm={12}>
               <Typography className={classes.section1Title}>
+// First part of the BIG text on the landing page
                 An avenue for
               </Typography>
 
               <Typography className={classes.section1Title}>
+// Second part of the BIG text on the landing page
                 the evolution of
                 <Typography className={classes.defi}>DeFi</Typography>
               </Typography>
+// Slogan of the Crypto - AlbertCoin
               <Typography className={classes.secText}>
                 Lightning fast · Near-zero fees · Permissionless
               </Typography>
@@ -79,6 +82,7 @@ const Section1 = () => {
                         variant="body2"
                         className={classes.cardSubText}
                       >
+// Ammount of Value Locked AlbertCoin
                         $ 21,000,000
                       </Typography>
                     </CardContent>
@@ -107,7 +111,8 @@ const Section1 = () => {
                         variant="body2"
                         className={classes.cardSubText}
                       >
-                        $ 12,300
+// Ammount of Total Trading Volume AlbertCoin
+                        $ 12,350
                       </Typography>
                     </CardContent>
                   </CardActionArea>
