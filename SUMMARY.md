@@ -6,6 +6,7 @@
 
 * [Vision and Values](albert-coin/vision-and-values.md)
 * [Meet the Team!](albert-coin/meet-the-team.md)
+* [FAQ](albert-coin/faq.md)
 
 ## The Formal Stuff
 
