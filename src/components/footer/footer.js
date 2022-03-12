@@ -185,7 +185,6 @@ const Footer = () => {
             // sx={{ color: "white", justifyContent: "center", display: "grid" }}
             className={classes.footerRes}
           >
-// Change Getting Started with AlbertCoin Link on GitBook
             <Grid className={classes.footerText}>
               <Typography>SUPPORT</Typography>
             </Grid>
@@ -199,7 +198,6 @@ const Footer = () => {
                 Getting Started with AlbertCoin
               </Typography>
             </Grid>
-// Change FAQ Link on GitBook
             <Grid sx={{ marginBottom: "6rem", cursor: "pointer" }}>
               <Typography
                 onClick={() => {
