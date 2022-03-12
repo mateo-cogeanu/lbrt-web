@@ -6,6 +6,7 @@ import discordimg from "../../Assets/logo6.png";
 import weiboimg from "../../Assets/9.png";
 import telegramimg from "../../Assets/logo3.png";
 import logo from "../../Assets/rad-logo.PNG";
+import logo from "../../Assets/github.svg";
 
 const Footer = () => {
   return (
