@@ -72,6 +72,7 @@ const Footer = () => {
                 marginBottom: "0.5rem",
                 cursor: "pointer",
               }}
+// Change Coin Gecko Link for AlbertCoin
             >
               <Typography
                 onClick={() => {
@@ -87,6 +88,7 @@ const Footer = () => {
                 marginBottom: "0.5rem",
                 cursor: "pointer",
               }}
+// Change AlbertCoin Phantom Wallet for AlbertCoin
             >
               <Typography
                 onClick={() => {
