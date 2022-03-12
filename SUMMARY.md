@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome!](README.md)
+* [✌️ Say Hello to AlbertCoin](README.md)
 
 ## Albert Coin
 
