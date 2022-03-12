@@ -227,7 +227,7 @@ const Footer = () => {
                 cursor: "pointer",
               }}
               onClick={() => {
-                window.open("https://albertcoin.eu");
+                window.open("https://twitter.com/ArtCogi");
               }}
             >
               <img src={twitterimg} width="32px" />
