@@ -79,7 +79,6 @@ const Section1 = () => {
                         variant="body2"
                         className={classes.cardSubText}
                       >
-// Ammount of Value Locked AlbertCoin
                         $ 21,000,000
                       </Typography>
                     </CardContent>
@@ -108,7 +107,6 @@ const Section1 = () => {
                         variant="body2"
                         className={classes.cardSubText}
                       >
-// Ammount of Total Trading Volume AlbertCoin
                         $ 12,350
                       </Typography>
                     </CardContent>
