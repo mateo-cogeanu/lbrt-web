@@ -279,14 +279,14 @@ const Footer = () => {
                 alignItems: "center",
                 cursor: "pointer",
               }}
-              onClick={() => {
-                window.open("https://albertcoin.eu");
-              }}
 // Change Github
+              onClick={() => {
+                window.open("https://github.com/mateo-cogeanu/lbrt-web");
+              }}
             >
               <img src={gitimg} width="32px" />
 
-              <Typography sx={{ marginLeft: "0.5rem" }}>Weibo</Typography>
+              <Typography sx={{ marginLeft: "0.5rem" }}>Github</Typography>
             </Grid>
             <Grid
               sx={{
@@ -296,8 +296,9 @@ const Footer = () => {
                 alignItems: "center",
                 cursor: "pointer",
               }}
+// Change Telegram
               onClick={() => {
-                window.open("https://github.com/mateo-cogeanu/lbrt-web");
+                window.open("https://web.telegram.org/k/");
               }}
             >
               <img src={telegramimg} width="32px" />
