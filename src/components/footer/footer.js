@@ -123,7 +123,7 @@ const Footer = () => {
             >
               <Typography
                 onClick={() => {
-                  window.open("https://albertcoin.eu");
+                  window.open("https://forms.gle/arZHA1RULVmnQuWA7");
                 }}
               >
                 Apply for DropZone
