@@ -281,7 +281,7 @@ const Footer = () => {
               }}
 // Change Github
               onClick={() => {
-                window.open("https://github.com/mateo-cogeanu/lbrt-web");
+                window.open("https://github.com/lbrtcoin");
               }}
             >
               <img src={gitimg} width="32px" />
