@@ -6,7 +6,7 @@ import discordimg from "../../Assets/logo6.png";
 import weiboimg from "../../Assets/9.png";
 import telegramimg from "../../Assets/logo3.png";
 import logo from "../../Assets/rad-logo.PNG";
-import logo from "../../Assets/github.svg";
+import gitimg from "../../Assets/github.svg";
 
 const Footer = () => {
   return (
@@ -282,8 +282,9 @@ const Footer = () => {
               onClick={() => {
                 window.open("https://albertcoin.eu");
               }}
+// Change Github
             >
-              <img src={weiboimg} width="32px" />
+              <img src={gitimg} width="32px" />
 
               <Typography sx={{ marginLeft: "0.5rem" }}>Weibo</Typography>
             </Grid>
@@ -296,7 +297,7 @@ const Footer = () => {
                 cursor: "pointer",
               }}
               onClick={() => {
-                window.open("https://albertcoin.eu");
+                window.open("https://github.com/mateo-cogeanu/lbrt-web");
               }}
             >
               <img src={telegramimg} width="32px" />
