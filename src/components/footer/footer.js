@@ -201,7 +201,7 @@ const Footer = () => {
             <Grid sx={{ marginBottom: "6rem", cursor: "pointer" }}>
               <Typography
                 onClick={() => {
-                  window.open("https://https://albertcoin.gitbook.io/albertcoin/albert-coin/faq");
+                  window.open("https://albertcoin.gitbook.io/albertcoin/albert-coin/faq");
                 }}
               >
                 FAQ
