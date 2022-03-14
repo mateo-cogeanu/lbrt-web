@@ -232,7 +232,7 @@ const Footer = () => {
                 cursor: "pointer",
               }}
               onClick={() => {
-                window.open("https://twitter.com/ArtCogi");
+                window.open("https://twitter.com/AlbertCoins");
               }}
             >
               <img src={twitterimg} width="32px" />
