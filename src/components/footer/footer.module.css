@@ -1,0 +1,48 @@
+.footerBg{
+    background-image: url("../../Assets/Art.png") !important;
+    background-size:100% 100% !important;
+    background-repeat: no-repeat !important;
+    width: 100% !important;
+    padding-top: 200px!important;
+}
+.footerRes{
+    display: grid !important;
+    justify-content: space-around !important;
+    color: #ffff !important;
+}
+.footerline{
+    margin-top: 8px !important;
+    margin-bottom: 1rem !important;
+    width: 40px !important;
+    height: 1px !important;
+    border-radius: 2px !important;
+    background: radial-gradient(39.84% 47.5% at 96.82% 58.33%,#79d839 0,#ff6e2b 100%);
+}
+.footerText{
+    font-size: 20px !important;
+    line-height: 27px !important;
+    color: #ffff !important;
+}
+
+@media (max-width: 600px){
+.footerBg{
+    background-size: 200vw 1100px,100% 100% !important;
+}
+}
+@media (max-width: 900px){
+
+.footerRes{
+display:inline-table !important;
+transform: translate(90px,-12px);
+padding-top: 1rem !important;
+padding-bottom: 1rem !important;
+
+
+}
+}
+
+@media (max-width: 597px){
+.footerRes{
+transform: translate(50px,-12px);
+}
+}

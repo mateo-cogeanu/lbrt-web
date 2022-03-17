@@ -1,0 +1,57 @@
+.secondbg{
+    background-image: linear-gradient(rgba(34, 34, 63,0.5),rgba(34, 34, 63, 0.5)), url("../../Assets/secbg.png") !important;
+    background-size:100% 100% !important;
+    max-width: 3000px !important;
+    height:100% !important;
+    width: 100% !important;
+    position:absolute !important;
+  
+    background-color: linear-gradient(245.22deg,#da2eef 7.97%,#2b6aff 49.17%,#39d0d8 92.1%) !important;
+}
+.sec2Style{
+    position: relative !important;
+    box-shadow: 8px 8px 10px rgb(20 16 65 / 5%), -8px -8px 10px rgb(197 191 255 / 5%), inset 0 6px 20px rgb(197 191 255 / 20%), inset 0 -1px 25px rgb(197 191 255 / 10%);
+    
+    background-size: 100% 100%;
+    margin: 0 auto;
+    justify-content: center !important;
+    padding: 30 96px;
+    max-width: 1320px;
+    min-height: 506px;
+    overflow: hidden;
+    border-radius: 100px;
+}
+.line{
+    margin: 8px auto !important;
+    width: 40px !important;
+    height: 1px !important;
+    border-radius: 2px !important;
+
+    background: radial-gradient(39.84% 47.5% at 96.82% 58.33%,#79d839 0,#ff6e2b 100%);
+}
+.lineText{
+    font-size: 20px !important;
+    line-height: 27px !important;
+    color: #ffffff !important;
+    justify-content: center !important;
+    display: flex !important;
+}
+.action{
+    grid-template-columns: repeat(4,1fr) !important;
+    grid-gap: 22px !important;
+    gap: 22px !important;
+    padding: 24px 50px;
+}
+@media (max-width: 728px){
+.lineText{
+    font-size: 14px !important;
+    line-height: 20px !important;
+}
+}
+@media (max-width: 550px){
+    .lineText{
+        font-size: 12px !important;
+        line-height: 18px !important;
+        padding: 0.7rem;
+    }
+    }
