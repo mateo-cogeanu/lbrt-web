@@ -11,11 +11,8 @@ const ActionCards = ({ data }) => {
   return (
     <>
       <Grid xs={12}>
-        {/* <Grid item> */}
         <Card
           sx={{
-            // justifyContent: "center",
-            // display: "flex!important",
             marginBottom: "2rem",
             padding: "0.5rem",
             maxWidth: 275,
@@ -23,14 +20,10 @@ const ActionCards = ({ data }) => {
           }}
           className={classes.actionCard}
         >
-          {/* <CardMedia
-            component="img"
-            height="130"
-            width="30"
-            src={data.img}
-            alt="green iguana"
-          /> */}
-          <Grid sx={{ justifyContent: "center", display: "flex" }}>
+          <Grid
+            sx={{ justifyContent: "center", display: "flex" }}
+            // Card Icon Image
+          >
             <img src={data.img} width="48px" />
           </Grid>
           <CardContent>
@@ -39,6 +32,7 @@ const ActionCards = ({ data }) => {
               variant="h5"
               component="div"
               className={classes.cardTitle}
+              // Card Title
             >
               {data.title}
             </Typography>
@@ -46,15 +40,20 @@ const ActionCards = ({ data }) => {
               variant="body2"
               color="text.secondary"
               className={classes.cardText}
+              // Card Text
             >
               {data.text}
             </Typography>
           </CardContent>
           <CardActions sx={{ justifyContent: "center" }}>
-            <Button className={classes.cardButton}>{data.button}</Button>
+            <Button
+              className={classes.cardButton}
+              // Card Button
+            >
+              {data.button}
+            </Button>
           </CardActions>
         </Card>
-        {/* </Grid> */}
       </Grid>
     </>
   );

@@ -11,11 +11,8 @@ const Section3Card = ({ data }) => {
   return (
     <>
       <Grid lg={12} md={12} sm={12} xs={12}>
-        {/* <Grid item> */}
         <Card
           sx={{
-            // justifyContent: "center",
-            // display: "flex!important",
             marginBottom: "2rem",
             padding: "1rem",
             maxWidth: 355,
@@ -23,12 +20,6 @@ const Section3Card = ({ data }) => {
           }}
           className={classes.actionCard}
         >
-          {/* <CardMedia
-          component="img"
-          height="140"
-          image={src}
-          alt="green iguana"
-        /> */}
           <Grid sx={{ justifyContent: "center", display: "flex" }}>
             <img src={data.img} width="48px" />
           </Grid>
@@ -38,6 +29,7 @@ const Section3Card = ({ data }) => {
               variant="h5"
               component="div"
               className={classes.cardTitle}
+              // card Title
             >
               {data.title}
             </Typography>
@@ -45,15 +37,12 @@ const Section3Card = ({ data }) => {
               variant="body2"
               color="text.secondary"
               className={classes.cardText}
+              // Card Text
             >
               {data.text}
             </Typography>
           </CardContent>
-          {/* <CardActions sx={{ justifyContent: "center" }}>
-            <Button className={classes.cardButton}>{data.button}</Button>
-          </CardActions> */}
         </Card>
-        {/* </Grid> */}
       </Grid>
     </>
   );

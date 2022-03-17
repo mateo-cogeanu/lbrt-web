@@ -5,6 +5,7 @@ import classes from "./section2.module.css";
 
 const Section2 = () => {
   const data = [
+    ////trade section
     {
       id: 1,
       img: require("../../Assets/logo7.png"),
@@ -13,6 +14,8 @@ const Section2 = () => {
       button: "Enter Exchange",
       text: "Swap or Trade quickly and cheaply.",
     },
+
+    ///yeild Section
     {
       id: 2,
       title: "Yield",
@@ -20,6 +23,8 @@ const Section2 = () => {
       text: "Earn yield through fees and yield farms.",
       img: require("../../Assets/logo5.png"),
     },
+
+    ///pool Section
     {
       id: 3,
       title: "Pool",
@@ -28,6 +33,7 @@ const Section2 = () => {
       img: require("../../Assets/logo2.png"),
     },
 
+    ////AcceleRaytor Section
     {
       id: 4,
       title: "AcceleRaytor",

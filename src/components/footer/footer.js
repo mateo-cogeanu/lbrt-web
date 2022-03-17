@@ -6,7 +6,7 @@ import discordimg from "../../Assets/logo6.png";
 import weiboimg from "../../Assets/9.png";
 import telegramimg from "../../Assets/logo3.png";
 import logo from "../../Assets/rad-logo.PNG";
-import gitimg from "../../Assets/github.svg";
+import gitimg from "../../Assets/git.png";
 
 const Footer = () => {
   return (
@@ -20,16 +20,7 @@ const Footer = () => {
           xs={10}
           sx={{ justifyContent: "center" }}
         >
-          <Grid
-            // container
-            item
-            lg={3}
-            md={3}
-            sm={6}
-            xs={6}
-            // sx={{ color: "white", justifyContent: "center", display: "grid" }}
-            className={classes.footerRes}
-          >
+          <Grid item lg={3} md={3} sm={6} xs={6} className={classes.footerRes}>
             <Grid className={classes.footerText}>
               <Typography>ABOUT</Typography>
             </Grid>
@@ -41,11 +32,13 @@ const Footer = () => {
                 marginBottom: "0.5rem",
                 cursor: "pointer",
               }}
-// Change SolScan Link for AlbertCoin
+              // Change SolScan Link for AlbertCoin
             >
               <Typography
                 onClick={() => {
-                  window.open("https://solscan.io/token/FvkVzKWPWMJRuP3XjSk2aKSmf5z7W9gWAtB2HAXoZaRi");
+                  window.open(
+                    "https://solscan.io/token/FvkVzKWPWMJRuP3XjSk2aKSmf5z7W9gWAtB2HAXoZaRi"
+                  );
                 }}
               >
                 SOLSCAN
@@ -57,7 +50,7 @@ const Footer = () => {
                 marginBottom: "0.5rem",
                 cursor: "pointer",
               }}
-// Change CoinMarketCap Link for AlbertCoin
+              // Change CoinMarketCap Link for AlbertCoin
             >
               <Typography
                 onClick={() => {
@@ -73,7 +66,7 @@ const Footer = () => {
                 marginBottom: "0.5rem",
                 cursor: "pointer",
               }}
-// Change Coin Gecko Link for AlbertCoin
+              // Change Coin Gecko Link for AlbertCoin
             >
               <Typography
                 onClick={() => {
@@ -89,14 +82,16 @@ const Footer = () => {
                 marginBottom: "0.5rem",
                 cursor: "pointer",
               }}
-// Change AlbertCoin Phantom Wallet for AlbertCoin
+              // Change AlbertCoin Phantom Wallet for AlbertCoin
             >
               <Typography
                 onClick={() => {
-                  window.open("https://phantom.app/");
+                  window.open(
+                    "https://albertcoin.gitbook.io/albertcoin/getting-started/spl-wallet"
+                  );
                 }}
               >
-                AlbertCoin Wallet
+                SLP Wallet
               </Typography>
             </Grid>
           </Grid>
@@ -107,7 +102,6 @@ const Footer = () => {
             md={3}
             sm={6}
             xs={6}
-            // sx={{ color: "white", justifyContent: "center", display: "grid" }}
             className={classes.footerRes}
           >
             <Grid className={classes.footerText}>
@@ -120,10 +114,11 @@ const Footer = () => {
                 marginBottom: "0.5rem",
                 cursor: "pointer",
               }}
+              // Apply for DropZone
             >
               <Typography
                 onClick={() => {
-                  window.open("https://albertcoin.eu");
+                  window.open("https://forms.gle/arZHA1RULVmnQuWA7");
                 }}
               >
                 Apply for DropZone
@@ -140,6 +135,7 @@ const Footer = () => {
                 onClick={() => {
                   window.open("https://albertcoin.eu");
                 }}
+                // Apply for Fusion Pool
               >
                 Apply for Fusion Pool
               </Typography>
@@ -150,6 +146,7 @@ const Footer = () => {
                 marginBottom: "0.5rem",
                 cursor: "pointer",
               }}
+              // Apply for AcceleRaytor
             >
               <Typography
                 onClick={() => {
@@ -170,6 +167,7 @@ const Footer = () => {
                 onClick={() => {
                   window.open("https://albertcoin.eu");
                 }}
+                //Link for PermissionLess Pool
               >
                 PermissionLess Pool
               </Typography>
@@ -182,7 +180,6 @@ const Footer = () => {
             md={3}
             sm={6}
             xs={6}
-            // sx={{ color: "white", justifyContent: "center", display: "grid" }}
             className={classes.footerRes}
           >
             <Grid className={classes.footerText}>
@@ -194,15 +191,19 @@ const Footer = () => {
                 onClick={() => {
                   window.open("https://albertcoin.eu");
                 }}
+                // Getting Started with AlbertCoin
               >
-                Getting Started on Raydium
+                Getting Started with AlbertCoin
               </Typography>
             </Grid>
             <Grid sx={{ marginBottom: "6rem", cursor: "pointer" }}>
               <Typography
                 onClick={() => {
-                  window.open("https://albertcoin.eu");
+                  window.open(
+                    "https://albertcoin.gitbook.io/albertcoin/albert-coin/faq"
+                  );
                 }}
+                // FAQS
               >
                 FAQ
               </Typography>
@@ -215,7 +216,6 @@ const Footer = () => {
             md={3}
             sm={6}
             xs={6}
-            // sx={{ color: "white", justifyContent: "center", display: "grid" }}
             className={classes.footerRes}
           >
             <Grid className={classes.footerText}>
@@ -232,8 +232,9 @@ const Footer = () => {
                 cursor: "pointer",
               }}
               onClick={() => {
-                window.open("https://twitter.com/ArtCogi");
+                window.open("https://twitter.com/AlbertCoins");
               }}
+              // Change AlbertCoin Twitter for AlbertCoin
             >
               <img src={twitterimg} width="32px" />
 
@@ -250,6 +251,7 @@ const Footer = () => {
               onClick={() => {
                 window.open("https://albertcoin.eu");
               }}
+              // Change AlbertCoin Medium for AlbertCoin
             >
               <img src={mediumimg} width="32px" />
 
@@ -266,6 +268,7 @@ const Footer = () => {
               onClick={() => {
                 window.open("https://albertcoin.eu");
               }}
+              // Change AlbertCoin Discord for AlbertCoin
             >
               <img src={discordimg} width="32px" />
 
@@ -279,9 +282,9 @@ const Footer = () => {
                 alignItems: "center",
                 cursor: "pointer",
               }}
-// Change Github
+              // Change Github
               onClick={() => {
-                window.open("https://github.com/mateo-cogeanu/lbrt-web");
+                window.open("https://github.com/lbrtcoin");
               }}
             >
               <img src={gitimg} width="32px" />
@@ -296,7 +299,7 @@ const Footer = () => {
                 alignItems: "center",
                 cursor: "pointer",
               }}
-// Change Telegram
+              // Change Telegram
               onClick={() => {
                 window.open("https://web.telegram.org/k/");
               }}
